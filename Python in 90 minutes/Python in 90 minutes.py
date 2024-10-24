@@ -41,7 +41,7 @@ print('x =', x, 'y =', y)
 
 # BOOLEAN VALUES - True or False
 # ------------------------------------------------
-# These all evaluate to False: 0, 0.0, [], "", None
+# These all uate to False: 0, 0.0, [], "", None
 # These are all True: any non-zero number, any non-empty string, list or set
 print(bool(1))    # True
 print(bool('dog'))
@@ -98,12 +98,12 @@ print(x)
 # Get user input from the keyboard at the command prompt
 name = input('What is your name? ')
 print("Hello,", name)
-age = eval(input('How old are you? '))
+age = (input('How old are you? '))
 print('Age =', age, type(age))
 
 # With what we know so far we can write a program to get user input and compute the area of a triangle.
-base = eval(input('Enter the base: '))
-height = eval(input('Enter the height: '))
+base = (input('Enter the base: '))
+height = (input('Enter the height: '))
 area = base * height / 2
 print ('Area = ', area)
 
